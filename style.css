@@ -40,24 +40,19 @@ a {
 .signup{
     color: aliceblue;
     background-color: #3882f6;
-}
- .subtext {
-   
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(92, 115, 136);
-    background-color: #1F2937;
-    font-size: 20px;
-    display: block;
-  
 }
+ 
+  
 .container{
-  display: inline-flex;
+  display: flex;
   background-color:#1F2937;
-  flex-direction: column;
+  flex-direction: row;
   padding: 32px;
+  justify-content: center;
   
 }
-.awesome,.subtext,.signup {
+.awesome,.signup {
     max-width: 400px;
 }
 button {
@@ -67,4 +62,14 @@ button {
     border-style: none;
     margin-top: 16px;
    
+}
+img {
+    display: flex;
+    height: auto;
+    width: 250px;
+    
+}
+.awesome p {
+    font-size: 16px;
+    color:rgb(102, 101, 101);
 }
