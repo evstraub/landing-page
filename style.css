@@ -95,6 +95,9 @@ h2 {
     display: block;
     align-items: center;
     justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -103,5 +106,26 @@ h2 {
     border: 4px solid #3882f6;
     border-width: 8px;
     display: flex;
+    width: 350px;
+    height: auto;
 
 }
+.quote {
+    display:flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: light italic;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.quote h4 {
+    padding: 30px;
+    margin-top: 120px;
+}
+.quote p {
+    max-width: 500px;
+} 
+
